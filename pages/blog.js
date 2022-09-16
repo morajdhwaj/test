@@ -11,8 +11,9 @@ export default function Blog({ posts, pageInfo }) {
       <h1 className="py-10 font-extrabold text-4xl  " >Latest Blogs</h1>
       {posts.map((post) => {
         return (
-          <ul key={post.slug}>
+          <ul  key={post.slug} className= "    " >
             <li className="font-bold">{post.title}</li>
+            {/* <li className="font-bold">{post.link}</li> */}
             {/* <li>{post.content}</li> */}
 
             
