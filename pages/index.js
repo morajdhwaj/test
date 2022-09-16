@@ -12,7 +12,7 @@ import { GET_POSTS } from "../utils/query";
 
 const index = () => {
   return (
-    <div className="max-w-7xl  bg-[#0d1117]">
+    <div className="max-w-7xl  bg-[#0d1117] jdcbjd">
       <Banner/>
       <Banner2/>
       <Banner3/>
