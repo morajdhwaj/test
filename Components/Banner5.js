@@ -69,7 +69,7 @@ function Banner5() {
         </div>
       </div>
       <button className=" text-main border m-5 p-2 bg-green-600 rounded-xl hover:bg-green-700 " >
-        <a href="http://localhost:3001/blog" >Blogs</a>
+        <a href="http://localhost:3000/blog" >Blogs</a>
       </button>
     </div>
   );

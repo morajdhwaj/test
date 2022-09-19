@@ -50,18 +50,23 @@ export const GET_POSTS = gql`
 `;
 
 export const GET_POST_BY_SLUG = gql`
-query getpostbyslug($slug:String) {
+query getpostbyslug($slug: String) {
   postBy(slug: $slug) {
     postId
     slug
     title
     excerpt
+    content
     featuredImage {
       node {
         altText
         mediaItemUrl
-              }
+        contentType {
+          node {
+            id
+          }
+        }
+      }
     }
   }
-}
-`
+}`;

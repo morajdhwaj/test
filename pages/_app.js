@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   const {pathname} = useRouter()
   return (
     <div className=" font-inter  ">
-      {pathname === "/blog" ? "" :<NavBar /> }
+      {/* {pathname === "/blog" ? "" :<NavBar /> } */}
       
       <div className=" max-w-6xl mx-auto px-5 ">
         <Component {...pageProps} />

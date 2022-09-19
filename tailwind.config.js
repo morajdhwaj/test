@@ -15,7 +15,8 @@ module.exports = {
         secondry:" #a7b5c4;",
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        inter: ["Inter", "sans-serif", ],
+        pop : ["poppins"],
       },
     },
   },
