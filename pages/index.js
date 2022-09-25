@@ -7,17 +7,21 @@ import Blog from "./blog";
 import Banner4 from "../Components/icons/Banner4";
 import { client } from "../utils/client";
 import { GET_POSTS } from "../utils/query";
+import Container6 from "../Components/container6";
 
-
+import Container7 from "../Components/Container7";
+import NavBar from "../Components/NavBar";
 
 const index = () => {
   return (
-    <div className="max-w-7xl  bg-[#0d1117] ">
+    <div className="max-w-7xl  bg-[#1e252c] ">
+      <NavBar/>
       <Banner/>
       <Banner2/>
       <Banner3/>
       <Banner4/>
       <Banner5/>
+      <Container7/>
     </div>
   );
 };

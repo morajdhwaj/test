@@ -6,7 +6,7 @@ import { GET_POST_BY_SLUG } from "../../utils/query";
 
 function BlogPage({ post }) {
   console.log(post);
-  console.log(post.featuredImage.node.mediaItemUrl);
+  
   return (
     <div className="flex  items-center justify-center font-pop   ">
       <div className=" max-w-3xl py5  ">
@@ -24,6 +24,7 @@ function BlogPage({ post }) {
             src={post.featuredImage.node.mediaItemUrl}
             alt=""
             className=" "
+            
           />
         </div>
         <div

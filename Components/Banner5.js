@@ -3,14 +3,14 @@ import Image from "next/image";
 function Banner5() {
   return (
     <div className=" pt-60">
-      <div className=" rounded-xl w-full  flex bg-gray-900 ">
+      <div className=" rounded-xl w-full  flex  bg-[#171e25]  ">
         <div className=" w-1/2 h-full  ">
           <Image
             src="/Banner5.jpg"
             alt=""
             height="780"
             width="700"
-            className=" rounded-xl"
+            className=" rounded-xl  "
           ></Image>
         </div>
         <div className=" w-1/2 h-full ">
@@ -57,20 +57,42 @@ function Banner5() {
           </div>
         </div>
       </div>
-      <div className=" pt-60 w-full  flex ">
+      <div className=" pt-40 sm:pt-80 w-full  flex ">
         <div className="h-full w-1/3  "></div>
         <div className=" h-full w-2/3  pl-10 pb-40 ">
           <h1 className="text-main text-5xl font-extrabold ">
             Webflow powers more than 100,000 websites for businesses.
           </h1>
-          <button className=" text-2xl  my-5 font-bold py-3 px-6 text-white pt-5 bg-[#4036be] rounded-full hidden md:block" >
+          <button className=" text-2xl  my-5 font-bold py-3 px-6 text-white pt-5 bg-[#4036be] rounded-full hidden md:block">
             Explore case studies
           </button>
         </div>
       </div>
-      <button className=" text-main border m-5 p-2 bg-green-600 rounded-xl hover:bg-green-700 " >
-        <a href="http://localhost:3000/blog" >Blogs</a>
-      </button>
+      <div>
+        <div className=" rounded-xl w-full  flex bg-[#171e25] ">
+          <div className=" w-2/5 h-full  ">
+            <Image
+              src="/banner52.jpeg"
+              alt=""
+              height="780"
+              width="700"
+              className=" rounded-lg"
+            ></Image>
+          </div>
+          <div className="  w-3/5 h-full  flex flex-col pt-20   ">
+            <div className=" space-y-10 max-w-xl mx-auto">
+              <Image
+                src="/couma2.svg"
+                alt=""
+                height="40"
+                width="40"
+                className=" rounded-lg"
+              ></Image>
+              <p className="text-secondry text-xl">I could not be any happier.The complete purches are very well put togther and help us to put together pf our new marketing company.All the pages anf fearture were very well explainded and made it very easy to change and adapt it to our needs. we were so impressed that we will purches the second branch some time in march. Highly recommmeded ! </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
