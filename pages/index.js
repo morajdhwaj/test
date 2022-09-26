@@ -11,6 +11,10 @@ import Container6 from "../Components/container6";
 
 import Container7 from "../Components/Container7";
 import NavBar from "../Components/NavBar";
+import Container1 from "../Components/Container1";
+import Studies from "../Components/Studies";
+import Qiuck from "../Components/Qiuck";
+import Footer from "../Components/Footer";
 
 const index = () => {
   return (
@@ -22,6 +26,9 @@ const index = () => {
       <Banner4/>
       <Banner5/>
       <Container7/>
+      <Studies/>
+      <Qiuck/>
+      <Footer/>
     </div>
   );
 };

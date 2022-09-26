@@ -3,7 +3,7 @@ import Image from "next/image";
 function Banner5() {
   return (
     <div className=" pt-60">
-      <div className=" rounded-xl w-full  flex  bg-[#171e25]  ">
+      <div className=" rounded-xl w-full flex-wrap sm:flex  bg-[#171e25]  ">
         <div className=" w-1/2 h-full  ">
           <Image
             src="/Banner5.jpg"
@@ -18,11 +18,11 @@ function Banner5() {
             <h5 className="text-[12px] text-secondry pl-10 ">
               04· CASE STUDIES{" "}
             </h5>
-            <div className=" bg-gradient-to-r from-[#21262d] to-[rgba(33, 38, 45, 0)] flex-1  h-[1px] w-96 "></div>
+            <div className=" bg-gradient-to-r from-gray-500 to-[rgba(33, 38, 45, 0)] flex-1  h-[2px] w-10 "></div>
           </div>
           <div className=" ">
             <div>
-              <div className=" h-auto flex">
+              <div className=" h-auto flex-wrap sm:flex">
                 <div className=" w-30   h-full    pl-10 ">
                   <div className=" rounded-full flex justify-center items-center text-white bg-[#4036be] h-14 w-14  shadow-[rgb(127,137,236,0.4)] shadow-[0_5px_30px_0.1px_rgba(46,23,255,0.1)]   "></div>
                 </div>

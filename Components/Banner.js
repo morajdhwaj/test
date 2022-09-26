@@ -27,7 +27,7 @@ function Banner() {
         <ActiveButton customClass=" text-2xl my-5 font-bold py-3 px-6  hidden md:block">
           Download for mac
         </ActiveButton>
-        {/* <button className="bg-blue-700 rounded-full py-3 px-6 text-2xl font-bold text-white  my-5  ">Download for mac</button> */}
+        <button className="bg-blue-700 rounded-full py-3 px-6 text-2xl font-bold text-white  my-5  ">Download for mac</button>
       </div>
     </div>
   );

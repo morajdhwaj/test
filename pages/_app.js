@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <div className=" font-inter  bg-[#1e252c] ">
       {/* {pathname === "/blog" ? "" :<NavBar /> } */}
       
-      <div className=" max-w-6xl mx-auto px-5 ">
+      <div className=" max-w-7xl mx-auto px-5 ">
         <Component {...pageProps} />
       </div>
     </div>

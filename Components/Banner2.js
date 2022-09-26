@@ -10,10 +10,8 @@ function Banner2() {
   return (
     <div className="font-inter text-main  w-full   ">
       <div className="  h-5/6 pl-14">
-        <div className="flex items-center space-x-5">
-          
-        </div>
-        <div className="flex space-x-1  pb-20 py-5   w-full">
+        <div className="sm:flex items-center space-x-5"></div>
+        <div className="sm:flex space-x-1  pb-20 py-5   w-full">
           <div className=" ">
             <div className="border border-white rounded-full flex justify-center items-center text-white bg-[#4036be] h-14 w-14  shadow-[rgb(127,137,236,0.4)] shadow-[0_5px_30px_0.1px_rgba(46,23,255,0.1)]   ">
               <FingrePrint />
@@ -35,24 +33,25 @@ function Banner2() {
           </div>
         </div>
       </div>
-      <div className=" w-auto    sm:flex h-full sm:w-full  ">
-        <div className="  h-full  w-1/3 border  border-green-700">
-          <Card
-            index={"1"}
+      <div className="     sm:flex h-full w-full  ">
+        <div className="  h-full  w-1/3   ">
+        <Card
+            index={"3"}
             title={"Code Export HTML/CSS"}
-            discription={
-              " zsianbhd bagsyus sausinbgd bordhs karves nios belgas frac dldnjc zsianbhd bagsyus sausinbgd bordhs karves nios belgas frac dldnjc"
-            }
             image={<HTML />}
+            //  discription={
+            //  " zsianbhd bagsyus sausinbgd bordhs karves nios belgas frac dldnjc zsianbhd bagsyus sausinbgd bordhs karves nios belgas frac dldnjc"
+            // }
           />
           <Card
-            index={"2"}
+            index={"3"}
             title={"Code Export HTML/CSS"}
             // discription={
             //   " zsianbhd bagsyus sausinbgd bordhs karves nios belgas frac dldnjc zsianbhd bagsyus sausinbgd bordhs karves nios belgas frac dldnjc"
             // }
-            Image={<HTML />}
+            image={<HTML />}
           />
+
           <Card
             index={"3"}
             title={"Code Export HTML/CSS"}
