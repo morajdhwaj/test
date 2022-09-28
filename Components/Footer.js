@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
@@ -65,6 +66,15 @@ const Footer = () => {
         <button>Instructions</button>
         <button>Licensing</button>
         <button>Changelog</button>
+      </div>
+      <div>
+        <div className="bg-black h-96 w-full bg-cover bg-center p-24">
+          <Image src="/https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600 " height="100" width="100"/>
+          <h1 className="text-6xl font-bold text-green-600">ABCDEF</h1>
+          <h1 className="text-xl font-bold text-blue-600">abcdefg</h1>
+
+        </div>
+        
       </div>
     </div>
   );

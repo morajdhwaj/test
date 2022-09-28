@@ -106,11 +106,11 @@ const Qiuck = () => {
           </div>
         </div>
       </div>
-      <div className="mt-40  w-full  rounded-xl text-white  bg-blue-700 flex flex-col items-center  justify-center font-bold h-full">
+      <div className="mt-40  w-full  rounded-xl text-white  bg-blue-500 flex flex-col items-center  justify-center font-bold h-full">
         <div className="text-7xl max-w-5xl text-center  py-20 ">
           Move even faster with Norman UI Kit for Webflow.
         </div>
-        <div className=" font-bold text-3xl pb-20 flex">
+        <div className=" font-bold text-3xl pb-20 flex space-x-5">
       <ActiveButton customClass=" py-1 px-4  hidden md:block" >
           Take the flow
         </ActiveButton>   
