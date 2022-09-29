@@ -3,8 +3,8 @@ import Image from "next/image";
 function Banner5() {
   return (
     <div className=" pt-60">
-      <div className=" rounded-xl w-full flex-wrap sm:flex  bg-[#171e25]  ">
-        <div className=" w-1/2 h-full  ">
+      <div className=" rounded-xl w-full  sm:flex  bg-[#171e25]  ">
+        <div className=" sm:w-1/2 h-full  ">
           <Image
             src="/Banner5.jpg"
             alt=""
@@ -13,7 +13,7 @@ function Banner5() {
             className=" rounded-xl  "
           ></Image>
         </div>
-        <div className=" w-1/2 h-full ">
+        <div className=" sm:w-1/2 h-full ">
           <div className="  h-28  flex items-center">
             <h5 className="text-[12px] text-secondry pl-10 ">
               04· CASE STUDIES{" "}
@@ -58,7 +58,7 @@ function Banner5() {
         </div>
       </div>
       <div className=" pt-40 sm:pt-80 w-full  flex ">
-        <div className="h-full w-1/3  "></div>
+        <div className="h-full w-1/3 hidden sm:block "></div>
         <div className=" h-full w-2/3  pl-10 pb-40 ">
           <h1 className="text-main text-5xl font-extrabold ">
             Webflow powers more than 100,000 websites for businesses.
@@ -69,8 +69,8 @@ function Banner5() {
         </div>
       </div>
       <div>
-        <div className=" rounded-xl w-full  flex bg-[#171e25] ">
-          <div className=" w-2/5 h-full  ">
+        <div className=" rounded-xl w-full  sm:flex bg-[#171e25] ">
+          <div className=" sm:w-2/5 h-full  ">
             <Image
               src="/banner52.jpeg"
               alt=""
@@ -79,8 +79,8 @@ function Banner5() {
               className=" rounded-lg"
             ></Image>
           </div>
-          <div className="  w-3/5 h-full  flex flex-col pt-20   ">
-            <div className=" space-y-10 max-w-xl mx-auto">
+          <div className="  sm:w-3/5 h-full flex flex-col pt-20   ">
+            <div className=" space-y-10 max-w-xl p-5 sm:p-1 mx-auto">
               <Image
                 src="/couma2.svg"
                 alt=""
@@ -88,7 +88,7 @@ function Banner5() {
                 width="40"
                 className=" rounded-lg"
               ></Image>
-              <p className="text-secondry text-xl">I could not be any happier.The complete purches are very well put togther and help us to put together pf our new marketing company.All the pages anf fearture were very well explainded and made it very easy to change and adapt it to our needs. we were so impressed that we will purches the second branch some time in march. Highly recommmeded ! </p>
+              <p className="text-secondry text-xl  ">I could not be any happier.The complete purches are very well put togther and help us to put together pf our new marketing company.All the pages anf fearture were very well explainded and made it very easy to change and adapt it to our needs. we were so impressed that we will purches the second branch some time in march. Highly recommmeded ! </p>
             </div>
           </div>
         </div>

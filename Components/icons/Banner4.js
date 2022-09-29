@@ -5,14 +5,14 @@ function Banner4() {
     <div className=" pt-40">
       <div className="flex items-center space-x-3   justify-center">
         <h5 className="text-[12px]  text-secondry pl-2 ">
-          03 · BUILT FOR DEVELOPERS, TRUSTED BY ENTERPRISES{" "}
+          03 · BUILT FOR DEVELOPERS, TRUSTED BY ENTERPRISE{" "}
         </h5>
         <div className=" pl-10 bg-gradient-to-r from-gray-500 to-[rgba(33, 38, 45, 0)] flex-1  h-[1px] w-10  "></div>
       </div>
 
       <div className=" sm:flex flex-col justify-center items-center ">
-        <div className="sm:flex  justify-center flex-wrap sm:flex-col items-center max-w-2xl  pt-16">
-          <h1 className="text-8xl font-extrabold text-main text-center ">
+        <div className="flex  justify-center flex-wrap sm:flex-col items-center max-w-2xl  pt-16">
+          <h1 className="title sm:text-8xl font-extrabold text-main text-center ">
             <span className=" text-transparent bg-clip-text bg-gradient-to-tr from-cyan-500 to-orange-500 ">
               CMS
             </span>

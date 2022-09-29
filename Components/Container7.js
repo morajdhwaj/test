@@ -14,7 +14,7 @@ const Container7 = () => {
       </div>
       <div className=" flex flex-col justify-center items-center ">
         <div className="flex justify-center flex-col items-center max-w-4xl  pt-16">
-          <h1 className="text-8xl font-extrabold text-main text-center ">
+          <h1 className="text-4xl sm:text-8xl font-extrabold text-main text-center ">
             Ready to get your team
             <span className=" text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-purple-500 ">
               {" "}
@@ -23,8 +23,8 @@ const Container7 = () => {
           </h1>
         </div>
       </div>
-      <div className="w-full text-xl text-secondry  space-x-2  h-auto flex pt-20 ">
-        <div className=" w-1/2 rounded-xl  flex-wrap sm:flex flex-col  bg-[#171e25]  pl-4">
+      <div className="w-full text-xl text-secondry space-y-5 sm:space-y-0  sm:space-x-2  h-auto sm:flex pt-20 ">
+        <div className=" sm:w-1/2 rounded-xl  flex-wrap sm:flex flex-col  bg-[#171e25]  pl-4">
           <div className=" flex space-x-3 py-5">
             <div className="font-bold text-sm text-gray-500">01</div>
             <div className=" font-bold text-3xl">Commercial</div>
@@ -32,11 +32,11 @@ const Container7 = () => {
               Single User
             </div>
           </div>
-          <div className="sm:flex ">
-            <div className="  flex-wrap sm:flex flex-col justify-between pb-10  ">
+          <div className="flex ">
+            <div className="  flex-wrap flex flex-col justify-between pb-10  ">
               <p>Basic for team and Developers</p>
 
-              <ActiveButton customClass=" py-1   mb-5 hidden md:block">
+              <ActiveButton customClass=" py-1   mb-5">
                 Get stared
               </ActiveButton>
             </div>
@@ -50,7 +50,7 @@ const Container7 = () => {
             </div>
           </div>
         </div>
-        <div className="  w-1/2 rounded-xl  flex flex-col  bg-[#171e25]  pl-4">
+        <div className="  sm:w-1/2 rounded-xl  flex-wrap sm:flex flex-col  bg-[#171e25]  pl-4">
           <div className=" flex space-x-3 py-5">
             <div className="font-bold text-sm text-gray-500 ">02</div>
             <div className=" font-bold text-3xl">Extended</div>
@@ -62,7 +62,7 @@ const Container7 = () => {
             <div className="   flex flex-col justify-between w-1/2  ">
               <p>Advanced collaboration and support for teams</p>
 
-              <ActiveButton customClass=" py-1   mb-5 hidden md:block">
+              <ActiveButton customClass=" py-1   mb-5 ">
                 Get stared
               </ActiveButton>
             </div>

@@ -91,3 +91,9 @@ font-family: 'Poppins', sans-serif;
  font: poppins;
 
  }
+
+ @layer components {
+  .title {
+    @apply text-4xl
+  }
+ }

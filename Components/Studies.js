@@ -15,13 +15,13 @@ const Studies = () => {
       </div>
       <div className=" flex flex-col justify-center items-center ">
         <div className="flex justify-center flex-col items-center   pt-16">
-          <h1 className="text-6xl font-extrabold text-main text-center ">
+          <h1 className="text-4xl sm:text-6xl font-extrabold text-main text-center ">
             Explore more ways to use codebase.
           </h1>
         </div>
       </div>
-      <div className=" h-full w-full  space-x-5 flex text-main   pt-20  ">
-        <div className="  w-1/3 bg-[#171e25] flex flex-col space-y-8 pb-10 rounded-xl overflow-hidden ">
+      <div className=" h-full w-full  sm:space-x-5 sm:flex text-main space-y-10 sm:space-y-0  pt-20  ">
+        <div className="  sm:w-1/3 bg-[#171e25] flex flex-col space-y-8 pb-10 rounded-xl overflow-hidden ">
           <div className="   w-full ">
             <Image
               src="/std1.jpeg"
@@ -31,13 +31,13 @@ const Studies = () => {
               className=" "
             ></Image>
           </div>
-          <div className=" h-1/2 w-full pl-10">
+          <div className=" sm:h-1/2 w-full pl-10">
             <h1 className="text-2xl font-bold ">Normal for developers</h1>
             <p className=" text-gray-500 font-bold">March 2022</p>
           </div>
           <div className="pl-10  font-bold text-secondry ">GUIDE</div>
         </div>
-        <div className="  w-1/3 bg-[#171e25] flex flex-col space-y-8 pb-10 rounded-xl overflow-hidden">
+        <div className="  sm:w-1/3 bg-[#171e25] flex flex-col space-y-8 pb-10 rounded-xl overflow-hidden">
           <div className="   w-full ">
             <Image
               src="/std2.jpeg"
@@ -53,7 +53,7 @@ const Studies = () => {
           </div>
           <div className="pl-10  font-bold text-secondry ">GUIDE</div>
         </div>
-        <div className="  w-1/3 bg-[#171e25] flex flex-col space-y-8 pb-10 rounded-xl overflow-hidden">
+        <div className="  sm:w-1/3 bg-[#171e25] flex flex-col space-y-8 pb-10 rounded-xl overflow-hidden">
           <div className="   w-full ">
             <Image
               src="/std3.jpeg"

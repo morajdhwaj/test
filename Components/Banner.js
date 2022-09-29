@@ -4,8 +4,8 @@ function Banner() {
   return (
     <div className="w-full ">
       <div className="  sm:w-11/12  mx-auto sm:pt-48  pb-10  pt-40">
-        <h1 className=" text-main text-center  font-extrabold h-full  sm:text-banner leading-[1] text-4xl  ">
-          <span>The site you want. Without the </span>
+        <h1 className=" text-main text-center  font-extrabold h-full  sm:text-banner leading-[1] title  ">
+          <span   > The site you want. Without the </span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-red-400">
             dev time
           </span>
@@ -24,7 +24,7 @@ function Banner() {
           {" "}
           Set up in a minutes, then customize to fit your style
         </p>
-        <ActiveButton customClass=" text-2xl my-5 font-bold py-3 px-6  hidden md:block">
+        <ActiveButton customClass=" text-2xl my-5 font-bold py-3 px-6 ">
           Download for mac
         </ActiveButton>
         {/* <button className="bg-blue-700 rounded-full py-3 px-6 text-2xl font-bold text-white  my-5  ">Download for mac</button> */}
