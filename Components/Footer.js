@@ -65,8 +65,29 @@ const Footer = () => {
         <button>Style Guide</button>
         <button>Instructions</button>
         <button>Licensing</button>
-        <button>Changelog</button>
+        <button>Changelog </button>
       </div>
+      <div>
+
+
+      {
+      function  getName () {
+        console.log("Namaste JS")
+      } 
+
+
+
+
+
+      }
+
+
+      </div>
+
+
+
+
+
       <div>
         {/* <div className="bg-black h-96 w-full bg-cover bg-center p-24">
           <Image src="/https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600 " height="100" width="100"/>
